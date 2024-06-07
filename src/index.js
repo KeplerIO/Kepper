@@ -1,4 +1,4 @@
-import config from "../config.json";
+import config from "../config.json" with { type: "json" };
 import Discord from "discord.js";
 
 const client = new Discord.Client({ intents: [Discord.GatewayIntentBits.Guilds] });

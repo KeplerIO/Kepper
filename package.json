@@ -5,7 +5,7 @@
   "description": "An actual Discord bot",
   "main": "./src/index.js",
   "scripts": {
-    "start": "node ./src/index.js"
+    "start": "node --no-warnings ./src/index.js"
   },
   "repository": {
     "type": "git",
