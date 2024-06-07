@@ -1,2 +1,2 @@
 # Kepper
-## An actual Discord bot
+An actual Discord bot
