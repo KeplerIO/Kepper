@@ -1,0 +1,22 @@
+{
+  "name": "kepper",
+  "version": "1.0.0",
+  "description": "An actual Discord bot",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KeplerIO/Kepper.git"
+  },
+  "author": "Kepler",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/KeplerIO/Kepper/issues"
+  },
+  "homepage": "https://github.com/KeplerIO/Kepper#readme",
+  "dependencies": {
+    "discord.js": "^14.15.3"
+  }
+}
