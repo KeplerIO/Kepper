@@ -43,7 +43,7 @@ class CommandParser {
         for(let [index, arg] of args.entries()) {
             if(arg.startsWith(Config.Commands.OPTION_PREFIX)) {
                 let opt = {count: null, name: null, val: ""};
-                opt.count = (options.length + 1);
+                opt.count = (options.length + 1); //TODO: Possibly use the index to count the command options here...
                 opt.name = arg;
                 options.push(opt);
             } else {
